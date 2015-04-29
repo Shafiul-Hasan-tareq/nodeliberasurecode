@@ -2,7 +2,7 @@
   "name" : "nodeliberasurecode"
   , "version" : "v0.0.1"
   , "description" : "Native Node.js C++ extension for liberasurecode"
-  , "homepage" : "http://www.yourwebsite.com/"
+  , "homepage" : "http://www.mywebsite.com/"
   , "author" : { 
       "name" : "your name"
       , "email" : "your@email.com"
