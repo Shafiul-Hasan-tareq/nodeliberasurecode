@@ -2,19 +2,19 @@
   "name" : "nodeliberasurecode"
   , "version" : "v0.0.1"
   , "description" : "Native Node.js C++ extension for liberasurecode"
-  , "homepage" : "http://www.mywebsite.com/"
+  , "homepage" : "http://www.scality.com/"
   , "author" : { 
-      "name" : "your name"
-      , "email" : "your@email.com"
-      , "url" : "http://www.yourwebsite.com/"
+      "name" : "Giorgio Regni"
+      , "email" : "giorgio.regni@scality.com"
+      , "url" : "http://www.scality.com/"
     }
   , "repository" : { 
       "type" : "git"
-      , "url" : "https://github.com/youruser/node-lib.git"
+      , "url" : "https://github.com/scality/node-ECLib.git"
     }
   , "scripts" : {
       "preinstall" : "node-gyp configure && node-gyp build"
       , "preuninstall" : "rm -rf build/*"
     }
-  , "main" : "build/Release/node-liberasure-code.node"
+  , "main" : "build/release/node-eclib.node"
 }
