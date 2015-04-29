@@ -1,0 +1,20 @@
+{
+  "name" : "nodeliberasurecode"
+  , "version" : "v0.0.1"
+  , "description" : "Native Node.js C++ extension for liberasurecode"
+  , "homepage" : "http://www.yourwebsite.com/"
+  , "author" : { 
+      "name" : "your name"
+      , "email" : "your@email.com"
+      , "url" : "http://www.yourwebsite.com/"
+    }
+  , "repository" : { 
+      "type" : "git"
+      , "url" : "https://github.com/youruser/node-lib.git"
+    }
+  , "scripts" : {
+      "preinstall" : "node-gyp configure && node-gyp build"
+      , "preuninstall" : "rm -rf build/*"
+    }
+  , "main" : "build/Release/node-liberasure-code.node"
+}
